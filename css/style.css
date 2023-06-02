@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;;
+}
+
+header, footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.020;
+}
+
+.header-footer-words {
+    display: flex;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.word-pizza {
+    color: #39B24A;
+}
+
+.word-symbol {
+    color: #FFFFFF;
+}
+
+.word-front {
+    color: #FC200C;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    color: #FFFFFF;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.ul-header {
+    align-items: center;
+    flex-grow: 0.08;    
+}
+
+main {
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: space-around;
+    padding: 50px 150px;
+    flex-grow: 1;
+}
+
+section {
+    display: flex;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.minibanner-section {
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+    padding-left: 19px;
+    padding-top: 20px;
+}
+
+.image2 {
+    width: 92px;
+    height: 129px;
+}
+
+h3 {
+    flex-grow: 0.050;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #FC200C; 
+}
+
+.main-white-text {
+    color: #FFFFFF;
+}
+
+.pizzas-top-section {
+    background-color: #FFFFFF;
+    flex-direction: column;
+}
+
+.titulo-podio {
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.podio-lista {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-grow: 0.50;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    flex-grow: 0.38;
+}
+
+ol>li {
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+footer {
+    height: 150px;
+}
+
+.ul-footer {
+    flex-direction:column;
+    align-items: flex-start;
+    flex-grow: 1; 
+}
+
+footer>.header-footer-logo>.header-footer-words {
+    font-size: 20px;
+    font-weight: 700px;
+}
